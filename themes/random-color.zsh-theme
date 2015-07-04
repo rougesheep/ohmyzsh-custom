@@ -1,0 +1,10 @@
+case $[RANDOM % 3] in
+	0) COLOR=$COLOR;;
+	1) COLOR=200;;
+	2) COLOR=170;;
+	*) COLOR=120;;
+
+PROMPT="%FG{%{$COLOR%}}%0~ %{$reset_color%}"
+
+ZSH_THEME_GIT_PROMPT_PREFIX="("
+ZSH_THEME_GIT_PROMPT_SUFFIX=") "
