@@ -1,3 +1,3 @@
 # Aliases for working with Puppet
 alias ppv='puppet parser validate'
-alias puppet-lint="puppet-lint --fail-on-warnings --no-80chars-check"
+alias puppet-lint="puppet-lint --fail-on-warnings"
